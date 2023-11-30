@@ -20,6 +20,7 @@ public class User implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     @Column(name = "id")
+    // This is ID
     private Long id;
     @Column(name = "user_ids")
     private String userId;
